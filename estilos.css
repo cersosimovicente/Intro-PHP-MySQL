@@ -1,0 +1,77 @@
+/* estilos.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+}
+.form-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+h1 {
+    color: #333;
+}
+input[type="text"], input[type="submit"], button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+input[type="text"] {
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+input[type="submit"], button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover, button:hover {
+    background-color: #45a049;
+}
+button {
+    background-color: #2196F3;
+}
+
+
+/* estilos.css */
+
+.list-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+td {
+    background-color: #f9f9f9;
+}
+
+button:hover {
+    background-color: #1e87d4;
+}

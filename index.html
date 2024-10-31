@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestión de Personas</title>
+    <style>
+        /* Estilos básicos para centrar los botones */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+        }
+        .container {
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        button {
+            margin: 10px;
+            padding: 15px 30px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Sistema de Gestión de Personas</h1>
+    <p>Selecciona una operación:</p>
+
+    <!-- Botón para ir al formulario de inserción de personas -->
+    <button onclick="window.location.href='formulario_intertar.html'">Añadir Persona</button>
+
+    <!-- Botón para listar todas las personas registradas -->
+    <button onclick="window.location.href='listar.php'">Listar Personas</button>
+
+    <!-- Botón para ir al formulario de actualización de datos de una persona -->
+    <button onclick="window.location.href='formulario_actualizar.html'">Actualizar Persona</button>
+
+    <!-- Botón para ir al formulario de eliminación de una persona -->
+    <button onclick="window.location.href='formulario_eliminar.html'">Eliminar Persona</button>
+</div>
+
+</body>
+</html>
